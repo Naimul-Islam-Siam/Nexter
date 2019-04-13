@@ -550,6 +550,8 @@ body {
   margin: 1rem;
   cursor: pointer;
   z-index: 2;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .home__like:hover {
@@ -626,6 +628,13 @@ body {
   .gallery {
     grid-gap: 1rem;
     padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .gallery {
+    grid-gap: 0.7rem;
+    padding: 0.7rem;
   }
 }
 
