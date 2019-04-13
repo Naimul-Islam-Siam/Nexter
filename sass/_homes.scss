@@ -32,6 +32,10 @@
 
         cursor: pointer;
         z-index: 2;
+
+        &:hover {
+            fill: red;
+        }
     }
 
     &__name {
