@@ -29,6 +29,11 @@ html {
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: $color-primary;
+    color: #fff;
+}
+
 body {
     font-family: $font-primary;
     color: $color-grey-dark-2;
