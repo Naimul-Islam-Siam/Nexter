@@ -320,7 +320,7 @@ body {
 }
 
 .gallery {
-  background-color: #54483A;
+  background-color: #f9f7f6;
   grid-column: full-start / full-end;
   display: -ms-grid;
   display: grid;
