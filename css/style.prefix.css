@@ -11,6 +11,7 @@ html {
     font-size: 62.5%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 @media only screen and (max-width: 75em) {
@@ -37,7 +38,7 @@ html {
 
 body {
     font-family: "Nunito", sans-serif;
-    color: #6D5D4B;
+    color: #6d5d4b;
     font-weight: 300;
     line-height: 1.6;
 }
@@ -1102,7 +1103,7 @@ body {
 }
 
 .heading-2--dark {
-    color: #54483A;
+    color: #54483a;
 }
 
 .heading-3 {
@@ -1120,7 +1121,7 @@ body {
 }
 
 .heading-4--dark {
-    color: #54483A;
+    color: #54483a;
 }
 
 .btn {
@@ -1140,7 +1141,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #B28451;
+    background-color: #b28451;
 }
 
 .mb-sm {
@@ -1789,7 +1790,7 @@ body {
     grid-area: 1 / 2 / 2 / 3;
     height: 2.5rem;
     width: 2.5rem;
-    fill: #B28451;
+    fill: #b28451;
     -ms-grid-column-align: end;
     justify-self: end;
     margin: 1rem;

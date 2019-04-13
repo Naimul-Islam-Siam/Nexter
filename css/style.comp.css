@@ -7,7 +7,8 @@
 
 html {
   font-size: 62.5%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
   @media only screen and (max-width: 75em) {
     html {
       font-size: 50%; } }
@@ -21,7 +22,7 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
-  color: #6D5D4B;
+  color: #6d5d4b;
   font-weight: 300;
   line-height: 1.6; }
 
@@ -53,7 +54,7 @@ body {
   .heading-2--light {
     color: #f9f7f6; }
   .heading-2--dark {
-    color: #54483A; }
+    color: #54483a; }
 
 .heading-3 {
   font-size: 1.6rem;
@@ -65,7 +66,7 @@ body {
   .heading-4--light {
     color: #f9f7f6; }
   .heading-4--dark {
-    color: #54483A; }
+    color: #54483a; }
 
 .btn {
   background-color: #c69963;
@@ -79,7 +80,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   transition: all 0.2s; }
   .btn:hover {
-    background-color: #B28451; }
+    background-color: #b28451; }
 
 .mb-sm {
   margin-bottom: 2rem; }
@@ -312,7 +313,7 @@ body {
     grid-area: 1 / 2 / 2 / 3;
     height: 2.5rem;
     width: 2.5rem;
-    fill: #B28451;
+    fill: #b28451;
     justify-self: end;
     margin: 1rem;
     cursor: pointer;

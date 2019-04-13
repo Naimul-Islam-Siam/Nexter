@@ -6,3 +6,10 @@ for (let i = 0; i < likeBtn.length; i++) {
         this.classList.toggle("like_active");
     });
 }
+
+//Smooth Scroll
+$("#header-btn").click(function () {
+    $('html, body').animate({
+        scrollTop: $("#properties").offset().top
+    }, 200);
+});
