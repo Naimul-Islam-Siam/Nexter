@@ -13,6 +13,15 @@
     grid-template-columns: minmax(min-content, max-content);
     justify-content: center;
 
+    @media only screen and (max-width: $bp-medium) {
+        grid-column: full-start / full-end;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 5rem;
+        padding-top: 3rem;
+    }
+
     &__logo {
         height: 3rem;
         justify-self: center;
