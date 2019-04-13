@@ -1,6 +1,8 @@
-var likeBtn = document.querySelector(".home__like");
+var likeBtn = document.querySelectorAll(".home__like");
 var color = "red";
 
-likeBtn.addEventListener("click", function () {
-    likeBtn.classList.add("like_active");
-});
+for (let i = 0; i < likeBtn.length; i++) {
+    likeBtn[i].addEventListener("click", function () {
+        this.classList.add("like_active");
+    });
+}
